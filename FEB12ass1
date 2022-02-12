@@ -1,0 +1,28 @@
+
+soaps=40
+oil=120
+shampoo=90
+noodles=100
+flour=100
+a=int(input('enter no of soaps'))
+b=int(input('enter no of oil packets'))
+c=int(input('enter no of shampoo packets'))
+d=int(input('enter no of noodles packets'))
+e=int(input('enter no of flour packets'))
+bill=(soaps*a)+(oil*b)+(shampoo*c)+(noodles*d)+(flour*e)
+disc=0
+tax=0
+if bill>=5000 :
+    disc=bill*10/100
+    tax=bill*10/100
+elif bill>=3000 and bill<5000 :
+    disc=bill*8/100
+    tax=bill*10/100
+elif bill>=2000 and bill<3000 :
+    disc=bill*5/100
+elif bill>=1000 and bill<2000 :
+    disc=bill*3/100
+else :
+    tax=bill*18/100
+mainbill=bill-disc+tax
+print(mainbill)
