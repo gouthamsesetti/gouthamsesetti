@@ -1,0 +1,14 @@
+n=int(input("Enter the size of list:"))
+l=[]
+for i in range(n):
+     x=int(input())
+     l.append(x)
+o=[]
+e=[]
+for i in l:
+     if i%2==0:
+          e.append(i)
+     else:
+          o.append(i)
+
+print(o,'  ',e)
