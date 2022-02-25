@@ -1,0 +1,13 @@
+n=int(input('enter n'))
+l=[]
+t=[]
+for i in range(n):
+    x=int(input('enter element'))
+    l.append(x)
+sum=0
+for i in range(n):
+    if l[i]!=0:                   #1 0 9 0 3 
+        t.append(l[i])           #
+        sum=sum+1
+print(t)
+print(sum)
