@@ -1,0 +1,4 @@
+l=[4,-6,7]
+for n in l:
+    if n>=0:
+        print(n)
