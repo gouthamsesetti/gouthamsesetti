@@ -1,0 +1,14 @@
+l=[]
+n=int(input('enter size'))
+for i in range(n):
+    x=int(input('entre element'))
+    l.append(x)
+print(l)
+s=[]
+k=0
+for i in l:
+    if i not in s:
+      if l.count(i)>1:
+        s.append(i)
+        k=k+1
+print(k)
