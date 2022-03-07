@@ -1,0 +1,7 @@
+n=int(input('enter size'))
+k=[]
+for i in range(n):
+    x=int(input('enter '))
+    k.append(x)
+res=[sorted(k).index(x)+1 for x in k]
+print(res)
