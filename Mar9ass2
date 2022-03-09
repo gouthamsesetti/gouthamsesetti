@@ -1,0 +1,2 @@
+l='aditya degree college,aditya group of institutions '
+print(l.count('aditya'))
