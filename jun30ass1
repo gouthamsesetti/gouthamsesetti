@@ -1,0 +1,11 @@
+x=list(map(int,input().split()))
+c=[]
+s=0
+k=0
+for i in x:
+    if i not in c:
+        c.append(i)
+        s=s+1
+    else:
+        k=k+1
+print(k)     
