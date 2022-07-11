@@ -1,0 +1,11 @@
+n=int(input())
+i=2
+c=0
+while n!=1:
+      rem=n%i
+      if rem==0:
+            n=n/i
+            c=c+1
+      else:
+            i+=1
+print(c)
